@@ -11,6 +11,7 @@
 		2274ABD628D3BDD3006AE6D7 /* SwifteeCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2274ABCB28D3BDD3006AE6D7 /* SwifteeCode.framework */; };
 		2274ABDB28D3BDD3006AE6D7 /* SwifteeCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABDA28D3BDD3006AE6D7 /* SwifteeCodeTests.swift */; };
 		2274ABDC28D3BDD3006AE6D7 /* SwifteeCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2274ABE728D3C1AD006AE6D7 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwifteeCode.docc; sourceTree = "<group>"; };
 		2274ABD528D3BDD3006AE6D7 /* SwifteeCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifteeCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274ABDA28D3BDD3006AE6D7 /* SwifteeCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifteeCodeTests.swift; sourceTree = "<group>"; };
+		2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */,
+				2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */,
 				2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */,
 			);
 			path = SwifteeCode;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2274ABE728D3C1AD006AE6D7 /* ContainerWithMostWater.swift in Sources */,
 				2274ABD028D3BDD3006AE6D7 /* SwifteeCode.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 		2274ABE328D3BDD3006AE6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96U63CGYMR;
@@ -410,6 +415,7 @@
 		2274ABE428D3BDD3006AE6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96U63CGYMR;
