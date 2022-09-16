@@ -33,11 +33,32 @@ class SwifteeCodeTests: XCTestCase {
         XCTAssertEqual(expectedOutputs, outputs)
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func test_LeetCode_15() throws {
+        let sut = ThreeSum()
+        
+        let inputs = [
+            [-1,0,1,2,-1,-4],
+            [0,1,1],
+            [0,0,0],
+            [0,0,0,0],
+            [-1,0,1,0],
+            [-2,0,1,1,2],
+        ]
+        let expectedOutputs = [
+            [[-1,-1,2],[-1,0,1]],
+            [],
+            [[0,0,0]],
+            [[0,0,0]],
+            [[-1,0,1]],
+            [[-2,0,2],[-2,1,1]],
+        ]
+        
+        let outputs = inputs.map{ sut.threeSum($0) }
+        for output in outputs {
+            print(output)
         }
+        
+        XCTAssertEqual(expectedOutputs, outputs)
     }
 
 }

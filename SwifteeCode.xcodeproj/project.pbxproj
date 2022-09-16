@@ -12,6 +12,7 @@
 		2274ABDB28D3BDD3006AE6D7 /* SwifteeCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABDA28D3BDD3006AE6D7 /* SwifteeCodeTests.swift */; };
 		2274ABDC28D3BDD3006AE6D7 /* SwifteeCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2274ABE728D3C1AD006AE6D7 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */; };
+		22C79EFB28D4DA5E00280604 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C79EFA28D4DA5E00280604 /* ThreeSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		2274ABD528D3BDD3006AE6D7 /* SwifteeCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifteeCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274ABDA28D3BDD3006AE6D7 /* SwifteeCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifteeCodeTests.swift; sourceTree = "<group>"; };
 		2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		22C79EFA28D4DA5E00280604 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */,
 				2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */,
+				22C79EFA28D4DA5E00280604 /* ThreeSum.swift */,
 				2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */,
 			);
 			path = SwifteeCode;
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2274ABE728D3C1AD006AE6D7 /* ContainerWithMostWater.swift in Sources */,
+				22C79EFB28D4DA5E00280604 /* ThreeSum.swift in Sources */,
 				2274ABD028D3BDD3006AE6D7 /* SwifteeCode.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
