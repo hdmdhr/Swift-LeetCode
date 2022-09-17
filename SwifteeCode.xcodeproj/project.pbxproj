@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226E765228D53D2A008C86D6 /* LongestSubsringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E765128D53D2A008C86D6 /* LongestSubsringWithoutRepeatingCharacters.swift */; };
 		2274ABD028D3BDD3006AE6D7 /* SwifteeCode.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */; };
 		2274ABD628D3BDD3006AE6D7 /* SwifteeCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2274ABCB28D3BDD3006AE6D7 /* SwifteeCode.framework */; };
 		2274ABDB28D3BDD3006AE6D7 /* SwifteeCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2274ABDA28D3BDD3006AE6D7 /* SwifteeCodeTests.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		226E765128D53D2A008C86D6 /* LongestSubsringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubsringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		2274ABCB28D3BDD3006AE6D7 /* SwifteeCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwifteeCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwifteeCode.h; sourceTree = "<group>"; };
 		2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwifteeCode.docc; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				2274ABCE28D3BDD3006AE6D7 /* SwifteeCode.h */,
+				226E765128D53D2A008C86D6 /* LongestSubsringWithoutRepeatingCharacters.swift */,
 				2274ABE628D3C1AD006AE6D7 /* ContainerWithMostWater.swift */,
 				22C79EFA28D4DA5E00280604 /* ThreeSum.swift */,
 				2274ABCF28D3BDD3006AE6D7 /* SwifteeCode.docc */,
@@ -202,6 +205,7 @@
 			files = (
 				2274ABE728D3C1AD006AE6D7 /* ContainerWithMostWater.swift in Sources */,
 				22C79EFB28D4DA5E00280604 /* ThreeSum.swift in Sources */,
+				226E765228D53D2A008C86D6 /* LongestSubsringWithoutRepeatingCharacters.swift in Sources */,
 				2274ABD028D3BDD3006AE6D7 /* SwifteeCode.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

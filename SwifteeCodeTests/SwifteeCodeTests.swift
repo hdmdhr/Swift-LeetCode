@@ -61,4 +61,26 @@ class SwifteeCodeTests: XCTestCase {
         XCTAssertEqual(expectedOutputs, outputs)
     }
 
+    func test_LeetCode_3() {
+        let sut = LongestSubsringWithoutRepeatingCharacters()
+        let inputs = [
+            "abcabcbb",
+            "bbbbb",
+            "pwwkew",
+            "advdfqwklieqrklbnca;",
+            "",
+        ]
+        let expectedOutputs = [
+            3,
+            1,
+            3,
+            11,
+            0
+        ]
+        
+        let outputs = inputs.map{ sut.lengthOfLongestSubstring($0) }
+        
+        XCTAssertEqual(outputs, expectedOutputs)
+    }
+    
 }
