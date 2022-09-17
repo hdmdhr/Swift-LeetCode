@@ -68,6 +68,7 @@ class SwifteeCodeTests: XCTestCase {
             "bbbbb",
             "pwwkew",
             "advdfqwklieqrklbnca;",
+            "ab",
             "",
         ]
         let expectedOutputs = [
@@ -75,6 +76,7 @@ class SwifteeCodeTests: XCTestCase {
             1,
             3,
             11,
+            2,
             0
         ]
         
